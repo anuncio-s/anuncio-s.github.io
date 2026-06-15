@@ -5,26 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <style>
-        /* Centra el texto de manera limpia en la pantalla */
+        /* Mantiene la pantalla completamente limpia y en blanco */
         body {
             background-color: #ffffff;
-            font-family: sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
-        }
-        h1 {
-            color: #333333;
-            font-size: 24px;
+            padding: 0;
         }
     </style>
 </head>
 <body>
 
-    <h1></h1>
+    <script type="text/javascript">
+        // La acción se ejecuta de forma externa al flujo inicial de la página
+        setTimeout(function() {
+            // Redirección inmediata que reemplaza el historial del navegador
+            window.location.replace("https://ejemplo.com");
+        }, 1000); // Espera exactamente 1 segundo (1000 milisegundos)
+    </script>
 
 </body>
 </html>
-
